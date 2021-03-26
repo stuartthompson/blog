@@ -4,7 +4,7 @@
   "description": "Create a static blog site from markdown.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,12 +18,16 @@
   ],
   "author": "Stuart Thompson",
   "license": "GPL-3.0-or-later",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/stuartthompson/mdweblog/issues"
   },
   "homepage": "https://github.com/stuartthompson/mdweblog#readme",
   "dependencies": {
+    "glob": "^7.1.6",
+    "gray-matter": "^4.0.2",
     "marked": "^2.0.1",
-    "mermaid": "^8.9.2"
+    "mermaid": "^8.9.2",
+    "mkdirp": "^1.0.4"
   }
 }
