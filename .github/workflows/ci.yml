@@ -14,3 +14,27 @@ jobs:
         run: npm install
       - name: Generate content
         run: npm start
+
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Generate content
+        run: npm start
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.BLOG_STATN_AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.BLOG_STATN_AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-west-2
+
+      - name: Deploy to S3
+        run: aws s3 cp site/ s3://statn-blog --recursive
+
