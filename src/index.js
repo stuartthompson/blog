@@ -1,23 +1,11 @@
-import fs from 'fs';
-import path from 'path';
-import matter from 'gray-matter';
-import marked from 'marked';
-import mkdirp from 'mkdirp';
-import glob from 'glob';
+import generateSite from './app.js';
 
-import { generateContent } from './render.js';
-
-/* Main entry point */
-const outputPath = 'site';
+// Main entry point
 const contentSourcePath = 'pages';
 const contentTemplatePath = 'templates/content.html';
+const indexTemplatePath = 'templates/index.html';
+const outputPath = 'site';
 
-/* Generate content files */
-const contentList = 
-    generateContent(contentSourcePath, contentTemplatePath, outputPath);
-
-// Print content list
-contentList.forEach(file => {
-    console.log(`Content: ${file}`);
-});
-
+// Generate the site
+generateSite(
+    contentSourcePath, contentTemplatePath, indexTemplatePath, outputPath);
