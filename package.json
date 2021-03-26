@@ -1,0 +1,29 @@
+{
+  "name": "mdweblog",
+  "version": "0.0.1",
+  "description": "Create a static blog site from markdown.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stuartthompson/mdweblog.git"
+  },
+  "keywords": [
+    "markdown",
+    "blog",
+    "html",
+    "static"
+  ],
+  "author": "Stuart Thompson",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/stuartthompson/mdweblog/issues"
+  },
+  "homepage": "https://github.com/stuartthompson/mdweblog#readme",
+  "dependencies": {
+    "marked": "^2.0.1",
+    "mermaid": "^8.9.2"
+  }
+}
