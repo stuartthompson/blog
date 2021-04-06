@@ -1,17 +1,10 @@
 ---
-title: First Post
-date: 2021-03-24
+title: First Post on New Blog
+date: 2021-04-04
 ---
 
-Some text goes here.
+First!
 
-## Diagram
+This is my first post on this new blog site. I'll likely end up migrating older
+posts at some point, but for now this can hold the honour of being first.
 
-A diagram is below.
-
-```mermaid
-graph TD;
-    Test-->Testing;
-```
-
-Some text after the diagram.
