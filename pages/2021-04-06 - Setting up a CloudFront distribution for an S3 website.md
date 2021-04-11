@@ -2,12 +2,12 @@
 title: Setting up a CloudFront Distribution for an S3 Static Website
 date: 2021-04-06
 ---
-
 Today I configured a CloudFront Distribution to expose my notes statn, which is
 hosted as a static website stored in an S3 bucket. This allows viewers to read
 the static content via the distribution without having access to the underlying
 S3 bucket. The distribution provides faster, cached access, and decouples the
 viewer from the actual content location.
+---
 
 The process was fairly simple, once I got my head around how the pieces fit
 together.
@@ -32,6 +32,4 @@ Accessing via CloudFront:\
 
 Accessing via the A record:\
 (screenshot of notes.statn.dev)
-
-
 
