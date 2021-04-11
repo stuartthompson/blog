@@ -1,9 +1,14 @@
 html {
-    background-color: 'black';
-    color: 'white';
+    background-color: black;
+    color: white;
 }
 
 .postContainer {
+    padding-bottom: 16px;
     font-family: 'Courier New';
-    padding-bottom: '16px';
+}
+
+.postContainer:before {
+    color: #00ff00;
+    content: '>';
 }
