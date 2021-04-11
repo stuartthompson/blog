@@ -1,0 +1,103 @@
+html {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New';
+}
+
+h1 {
+    color: #008800;
+    font-size: 16pt;
+    padding-top: 12px;
+    padding-bottom: 8px;
+}
+
+h1:before {
+    content: '// ';
+}
+
+h2 {
+    color: #888800;
+    font-size: 15pt;
+    line-height: 0px;
+    margin-top: 1.8em;
+    margin-bottom: -0.1em;
+}
+
+h2:before {
+    content: '// ';
+}
+
+h3 {
+    color: #008800;
+    font-size: 14pt;
+    line-height: 0px;
+    margin-top: 1.5em;
+    margin-bottom: -0.2em;
+}
+
+h3:before {
+    content: '// ';
+}
+
+h4 {
+    color: #008800;
+    font-size: 13pt;
+    line-height: 0px;
+    margin-top: 1.4em;
+    margin-bottom: -0.2em;
+}
+
+h4:before {
+    content: '// ';
+}
+
+a {
+    color: #88ccff;
+}
+
+.titleBar {
+    padding-bottom: 16px;
+}
+
+.titleBar a {
+    color: #ffff00;
+}
+
+.mainContentContainer {
+    width: 780px;
+}
+
+.excerptContainer {
+    padding-bottom: 24px;
+}
+
+.excerptHeaderContainer {
+    padding-bottom: 3px;
+}
+
+.excerptHeaderSep {
+    color: #00ff00;
+}
+
+.excerptDate {
+    color: orange;
+}
+
+.excerptTitle {
+    color: #008888;
+    font-size: 14pt;
+}
+
+.title {
+    color: #008888;
+    font-size: 18pt;
+}
+
+.date {
+    color: orange;
+}
+
+.excerpt {
+}
+
+
