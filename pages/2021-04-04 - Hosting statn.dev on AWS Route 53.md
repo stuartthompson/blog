@@ -2,10 +2,12 @@
 title: Hosting statn.dev on AWS Route 53
 date: 2021-04-04
 ---
+Setting up a hosted zone using AWS Route 53 for statn.dev.
+---
+
 Today I set up a hosted zone for statn.dev on AWS using Route 53. I registered
 the domain through Google Domains but wanted to learn more about using Route
 53 for hosting.
----
 
 ## Registering Name Servers and Disabling Google's DNSSEC
 
