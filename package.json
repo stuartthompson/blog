@@ -3,6 +3,6 @@
     "build": "mdweblog pages templates/content.html templates/index.html site"
   },
   "dependencies": {
-    "mdweblog": "0.6.5"
+    "mdweblog": "0.6.6"
   }
 }
