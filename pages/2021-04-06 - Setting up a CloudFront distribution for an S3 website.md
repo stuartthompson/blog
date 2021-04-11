@@ -14,8 +14,8 @@ together.
 
 I created this note to document the process of permitting CloudFront to access
 the S3 bucket while restricting other access:
-[Note: Configuring a CloudFront OAI for S3 Access]
-(https://notes.statn.dev/hosting/aws/cloudfront/origin-access-identity.html)
+[Note: Configuring a CloudFront OAI for S3 Access](
+https://notes.statn.dev/hosting/aws/cloudfront/origin-access-identity.html)
 
 ## Automatically appending index.html
 
