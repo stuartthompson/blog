@@ -1,3 +1,9 @@
+html {
+    background-color: 'black';
+    color: 'white';
+}
+
 .postContainer {
-    font-family: 'Tahoma'
+    font-family: 'Courier New';
+    padding-bottom: '16px';
 }
