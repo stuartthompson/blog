@@ -14,7 +14,11 @@ Polybar colors can be specified as part of script output, as described in this
 
 ### Foreground Color
 
+The foreground color is specified with %{F#*color*}. For example, to specify a
+white foreground color, use %{u#ffffff}.
+
 ### Underline Color
 
-
+The underline color is specified with %{u#*color*}. For example, to specify a
+white underline, use %{u#ffffff}.
 
