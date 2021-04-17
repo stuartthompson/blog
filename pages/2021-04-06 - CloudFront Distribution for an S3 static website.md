@@ -12,22 +12,16 @@ viewer from the actual content location.
 The process was fairly simple, once I got my head around how the pieces fit
 together.
 
+## Hosting a Static Website in S3
+
+I covered the process for hosting a static website in S3 [here](
+).
+
+## Restricting Access to CloudFront Only
+
 I created [this note](
 https://notes.statn.dev/hosting/aws/cloudfront/origin-access-identity.html)
 to document the process of permitting CloudFront to access the S3 bucket while
 restricting other access.
 
-## Automatically appending index.html
-
-I verified that the site was available via CloudFront but not available via S3
-directly:
-
-Accessing via S3:\
-(screenshot of denied access here)
-
-Accessing via CloudFront:\
-(screenshot of cloudfront endpoint)
-
-Accessing via the A record:\
-(screenshot of notes.statn.dev)
 
